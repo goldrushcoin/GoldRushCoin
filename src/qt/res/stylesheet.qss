@@ -1,0 +1,79 @@
+QMainWindow {
+    background-color: #fff;
+}
+
+QToolBar,
+QToolBar::handle {
+    border: 0px;
+    background-color: #7D7560;
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+    border-right-style: none;
+}
+
+#menuToolbar QActionGroup {
+    border: 0px;
+    border-right-style: none;
+}
+
+
+QFrame#SendCoinsEntry,
+QFrame#frameCoinControl,
+QFrame#recenttransactionsframe,
+QFrame#walletframe { 
+	border-radius:10px;
+	background-color:#B0A587; 
+	border: 1px solid #ccc; 
+}
+
+#menuToolbar QToolButton {
+    width: 150px;
+    border: 0px;
+    margin:0;
+    padding: 0 0 0 10px;
+    min-height:48px;
+    background-color: #7D7560;
+    color:#fff;
+    font-size: 12px;
+    text-align: left;
+}
+
+#menuToolbar QToolButton:hover,
+#menuToolbar QToolButton:pressed,
+#menuToolbar QToolButton:selected {
+    background-color: #F2D3BF
+}
+
+#menuToolbar QToolButton:checked {
+    background-color: #fff;
+    color: #333;
+}
+
+#menuToolbar QToolButton::disabled {
+    color: gray;
+}
+
+#dopecoinstatusbar {
+    background-color: #7D7560; color: #ffffff;
+} 
+
+#labelCoinControlQuantity,
+#labelCoinControlBytes,
+#labelCoinControlAmount,
+#labelCoinControlPriority,
+#labelCoinControlFee,
+#labelCoinControlLowOutput,
+#labelCoinControlAfterFee,
+#labelCoinControlChange {
+    border: 0px;
+    border-style: none;
+    color: #7D7560;
+}
+
+#scrollArea,
+#scrollAreaWidgetContents {
+    background-color: #fff;
+    border: 0px;
+    border-style: none;
+}
